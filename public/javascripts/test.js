@@ -1,0 +1,14 @@
+$(function(){
+    $.ajax({
+        url:'/api/loginReg',
+        success:function(res){
+            console.log("res")
+        },
+        error:function(err){
+            console.log(err);
+        },
+        complete:function(res){
+            console.log(res);
+        }
+    })
+})
